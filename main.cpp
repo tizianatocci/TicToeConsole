@@ -14,5 +14,5 @@ int main(){
     Player p1=g.create_player();
     Player p2=g.create_player();
     g.play_game(p1, p2, b);
-    std::cin.get();
+    return 0;
 }
